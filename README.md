@@ -65,3 +65,8 @@ You can also use Docker to release to Heroku:
 For more information about using Ruby on Heroku, see these Dev Center articles:
 
 - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
+
+## Dev
+- Connect to remote PG locally: `heroku pg:psql`
+- Connect to remote rails env: `heroku run rails console`
+- Run migratiosn remotely: `heroku run rake db:migrate`
